@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <property name="ti.android.runtime">rhino</property>
-    <property name="acs-oauth-secret-production" type="string">dD2UfjqqiVmjsDg8WFjEAXm4bbipyDWo</property>
-    <property name="acs-oauth-key-production" type="string">yien1Kja1NAnwVuUCAfCB9lSQkRQjb95</property>
-    <property name="acs-api-key-production" type="string">Yc3A5b7OslheseopLlLY9o2nmPY1c6C5</property>
-    <property name="acs-oauth-secret-development" type="string">bJ907BpywsjY592fwt4if8ZKJ8iF0gYt</property>
-    <property name="acs-oauth-key-development" type="string">lBF2WH2kDKpywDpXhqH0VHn45bURl8qK</property>
-    <property name="acs-api-key-development" type="string">8xyQorzSriq7cBjnD15siDBAXZUlkSlV</property>
+    <property name="acs-oauth-secret-production" type="string">tb1Z0VvMjADTVA6jv6Eu23dqwlImEIMc</property>
+    <property name="acs-oauth-key-production" type="string">nNTWtqPkohxVuohvBlFAAUhKiUZ2uywZ</property>
+    <property name="acs-api-key-production" type="string">7rNShOwSdmoqwyrUd0qLnIsicysiXnAy</property>
+    <property name="acs-oauth-secret-development" type="string">6OUvPgciYjcIKr3GH1MGg4B9KOGAvhVA</property>
+    <property name="acs-oauth-key-development" type="string">21rL5M1q78tvEdJ8FF7FFQgRtjplMpTe</property>
+    <property name="acs-api-key-development" type="string">7slNIxlnJwxEWPYEumB5B7spEsgcBUMM</property>
     <deployment-targets>
         <target device="mobileweb">true</target>
         <target device="iphone">false</target>
@@ -15,8 +14,8 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>2.1.3.GA</sdk-version>
-    <id>example.com</id>
-    <name>example</name>
+    <id>gdfh.hgfhgf.hfgj</id>
+    <name>reb2</name>
     <version>1.0</version>
     <publisher>Mat</publisher>
     <url>http://</url>
@@ -30,7 +29,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>98fbd1d2-9a28-4d93-a71a-332dd7c0fc40</guid>
+    <guid>3dce4441-7be3-4d3f-af74-75d8c54032c3</guid>
     <property name="ti.ui.defaultunit">system</property>
     <iphone>
         <orientations device="iphone">
@@ -53,6 +52,7 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
+        <module version="0.1.0">tipm-emitter2</module>
         <module platform="commonjs" version="2.3.0">ti.cloud</module>
     </modules>
 </ti:app>
